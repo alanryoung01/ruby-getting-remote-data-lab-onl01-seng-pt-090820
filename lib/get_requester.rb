@@ -18,6 +18,6 @@ class GetRequester
   def parse_json
     JSON.parse(get_response_body)
   end
-end
-get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
+  get_requester = GetRequester.new('https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json')
 get_requester.parse_json
+end

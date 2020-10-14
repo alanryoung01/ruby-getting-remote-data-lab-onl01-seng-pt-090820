@@ -1,6 +1,6 @@
 class GetRequester
 
   def initialize
-    @url = url 
-  end 
+    @url = url
+  end
 end
